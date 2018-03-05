@@ -1,10 +1,10 @@
-package com.pixel.dao;
+package com.pixel.service;
 
 import java.util.List;
 
 import com.pixel.model.User;
 
-public interface UserDao {
+public interface UserService {
 
 	public int create(User user);
 	public void update(User user);
